@@ -41,7 +41,11 @@ jobs:
         run: yarn kbn bootstrap
 
       - name: Build Kibana plugin
-        working-directory: plugins/full_export
+        working-directory: plugins/all_tickets_current_status
+        run: yarn build --kibana-version 8.11.3
+
+      - name: Build Kibana plugin
+        working-directory: plugins/vendor_open_ticket_summary
         run: yarn build --kibana-version 8.11.3
 
       - name: Login to Docker Hub
