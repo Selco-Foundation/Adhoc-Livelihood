@@ -10,7 +10,7 @@ on:
 
 env:
   KIBANA_VERSION: "8.11.3"
-  IMAGE_NAME: "selcohub/kibana-plugin-poc"
+  IMAGE_NAME: "selcohub/livelihood-custom-kibana"
 
 jobs:
   build:
