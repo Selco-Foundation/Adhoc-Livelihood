@@ -1,0 +1,7 @@
+{
+  "prefix": "allTicketsCurrentStatus",
+  "paths": {
+    "allTicketsCurrentStatus": "."
+  },
+  "translations": ["translations/ja-JP.json"]
+}

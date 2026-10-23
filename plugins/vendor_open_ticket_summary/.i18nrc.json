@@ -1,0 +1,7 @@
+{
+  "prefix": "vendorOpenTicketSummary",
+  "paths": {
+    "vendorOpenTicketSummary": "."
+  },
+  "translations": ["translations/ja-JP.json"]
+}
